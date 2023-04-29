@@ -80,3 +80,9 @@ p {
 .sns-img:hover {
     transform: translate(0, -2px);
 }
+
+.interested-title {
+    font-size: 55px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+}
