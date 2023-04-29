@@ -44,3 +44,28 @@ body {
     opacity: 1;
     text-shadow: 0.7px 0.7px 0.7px #000;
 }
+
+section {
+    margin-left: 260px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 65px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+}
+
+.introduction {
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    opacity: 0.8;
+}
