@@ -1,6 +1,5 @@
 const clicks = document.querySelectorAll(".click")
 const sections = document.querySelectorAll("section")
-const details = document.querySelectorAll(".like-img")
 
 const top1 = sections[0].offsetTop
 const top2 = sections[1].offsetTop
@@ -22,8 +21,4 @@ clicks[3].onclick = function() {
 }
 clicks[4].onclick = function() {
     window.scroll({top:top5, behavior:'smooth'})
-}
-
-details[4].onclick = function() {
-    window.scroll({top:top5, behavior: 'smooth'})
 }
